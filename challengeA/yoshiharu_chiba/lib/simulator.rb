@@ -13,6 +13,7 @@ class Simulator
   def simulate
     calculate = Calculate.new(@amps, @amount_per_month)
 
+    # 各電力会社の電気料金が配列に格納されていく
     prices = []
 
     # 東京電力
